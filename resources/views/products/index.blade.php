@@ -8,6 +8,7 @@
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-green-700 mb-5">Laravel CRUD</h1>
         <h1 class="text-3xl font-bold text-gray-800 mb-6">Product Management</h1>
         
         @if (session()->has('success'))
